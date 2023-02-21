@@ -22,7 +22,7 @@ jobs:
       with:
         submodules: recursive
     - name: Setup GNU Arm Embedded Toolchain
-      uses: carlosperate/arm-none-eabi-gcc-action@v1.4.0
+      uses: carlosperate/arm-none-eabi-gcc-action@v1
       with:
         release: latest
 
